@@ -1,0 +1,34 @@
+OFDM Music Transmission with Channel Estimation
+===============================================
+
+Parameters:
+  Modulation: QPSK
+  OFDM Subcarriers: 64
+  Cyclic Prefix: 16
+  Channel SNR: 20 dB
+  Rician K-factor: 5
+  Pilot Subcarriers: 16
+  Pilot Interval: Every 4 OFDM symbols
+
+Audio Quality Metrics:
+  SNR (dB):
+    AWGN channel                  : -1.43 dB
+    Rayleigh fading (no est)      : -7.86 dB
+    Rayleigh fading (with est)    : -1.43 dB
+    Rician fading (no est, K=5)  : -9.46 dB
+    Rician fading (with est, K=5): -1.43 dB
+
+  Improvement with Channel Estimation:
+    Rayleigh channel: +6.43 dB
+    Rician channel  : +8.02 dB
+
+  MSE:
+    AWGN channel                  : 4.35e-02
+    Rayleigh fading (no est)      : 1.91e-01
+    Rayleigh fading (with est)    : 4.35e-02
+    Rician fading (no est, K=5)  : 2.76e-01
+    Rician fading (with est, K=5): 4.35e-02
+
+  Reduction Factor with Estimation:
+    Rayleigh channel: 4.39
+    Rician channel  : 6.34

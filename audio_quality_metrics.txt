@@ -1,0 +1,27 @@
+OFDM Music Transmission with Channel Estimation
+===============================================
+
+Parameters:
+  Modulation: QPSK
+  OFDM Subcarriers: 64
+  Cyclic Prefix: 16
+  Channel SNR: 20 dB
+  Rayleigh Taps: 4
+  Pilot Subcarriers: 16
+  Pilot Interval: Every 4 OFDM symbols
+
+Audio Quality Metrics:
+  SNR (dB):
+    Without channel estimation: -8.45 dB
+    With channel estimation   : -1.43 dB
+    Improvement              : 7.01 dB
+
+  MSE:
+    Without channel estimation: 2.19e-01
+    With channel estimation   : 4.35e-02
+    Improvement ratio        : 5.03
+
+  PSNR (dB):
+    Without channel estimation: 6.60 dB
+    With channel estimation   : 13.61 dB
+    Improvement              : 7.01 dB
